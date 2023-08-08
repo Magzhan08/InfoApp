@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="drawer_list">
+        <item>Грибы</item>
+        <item>Лечебные травы</item>
+        <item>Деревья</item>
+        <item>Фрукты</item>
+        <item>Овощи</item>
+    </string-array>
+
+    <string-array name="mushrooms">
+        <item>Лисичка|lesichka.png|lesichka.html</item>
+        <item>Мухамор|muhamor.png|lesichka.html</item>
+    </string-array>
+
+    <string-array name="medicinal_herbs">
+        <item>Ромашка|romashka.png|lesichka.html</item>
+        <item>Крапива|krapiva.png|lesichka.html</item>
+    </string-array>
+
+    <string-array name="trees">
+        <item>Тополь|topol.png|lesichka.html</item>
+        <item>Дуб|dub.png|lesichka.html</item>
+    </string-array>
+
+    <string-array name="fruits">
+        <item>Апельсин|apelsin.png|lesichka.html</item>
+        <item>Яблоко|yabloco.png|lesichka.html</item>
+    </string-array>
+
+    <string-array name="vegetables">
+        <item>Капуста|kapusta.png|lesichka.html</item>
+        <item>Свекла|svekla.png|lesichka.html</item>
+    </string-array>
+</resources>
