@@ -12,10 +12,16 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.sp
+import androidx.hilt.navigation.compose.hiltViewModel
+import com.example.infoapp.MainViewModel
 import kotlinx.coroutines.launch
 
 @Composable
-fun MainTopBar(title: String, scaffoldState: ScaffoldState) {
+fun MainTopBar(
+    title: String,
+    scaffoldState: ScaffoldState,
+    onFavClick: () -> Unit
+) {
     val coroutineScope = rememberCoroutineScope()
     TopAppBar(
         title = {
@@ -42,7 +48,7 @@ fun MainTopBar(title: String, scaffoldState: ScaffoldState) {
         actions = {
             IconButton(
                 onClick = {
-
+                    onFavClick()
                 }
             ) {
                 Icon(
